@@ -1,27 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="サイト
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tee-Blaze</title>
-
-
-    <!-- <link rel="icon" href="favicon.ico" type="image/x-icon" /> -->
-
-    <link rel="stylesheet" href="style.css" />
-
-    <script defer src="script.js"></script>
+  <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Tee-Blaze</title>
+<link rel="stylesheet" href="style.css" />
+<script defer src="script.js"></script>
 </head>
 <body>
-<header>
-    <h1>Welcome</h1>
-</header>
+<div class="container">
+    <div class="sidebar" id="sidebar">
+        <div class="sidebar-toggle" onclick="toggleSidebar()">☰</div>
+        <h1>Tee-Blaze</h1>
+        <div class="sidebar-header">
+            <p>Playlist</p>
+            <p>Album</p>
+            <p>Artist</p>
+            <p>Songs</p>
 
-<main>
-</main>
-
-<footer>
-    <p>&copy; 2025 Tee-blaze. All rights reserved.</p>
-</footer>
+        </div>
+    </div>
+    <main class="main-content">
+        <input type="text" placeholder="Search..." class="search-input">
+    </main>
+</div>
 </body>
 </html>
